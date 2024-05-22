@@ -1,0 +1,114 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+header {
+    max-width: 1120px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;    
+}
+
+header p {
+    font-size: 24px;
+    color: white;
+    font-family: "Magra", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+header p a {
+    text-decoration: none;
+    color: white;
+}      
+ 
+header nav ul {
+    margin: 50px;
+    font-weight: bold;
+    display: flex;
+    list-style-type: none;
+    gap: 37px;
+    font-family: "Magra", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: white;
+}
+ 
+header nav ul a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 96px;
+    text-align: center;
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Immagine {
+    background-color: #720D43;
+    padding-left: 185px;
+    padding-top: 4px;
+}
+
+.Paragrafo1 {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 250px;
+    padding-right: 250px;
+    font-family: "Magra", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}    
+
+.Paragrafo2 {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 250px;
+    padding-right: 250px;
+    background-color: #720D43;
+    font-family: "Magra", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer {
+    display: flex;
+    gap: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 350px;
+}
+
+footer nav ul a {
+    text-decoration: none;
+    color: white;
+}
+ 
+footer nav ul a:hover {
+    text-decoration: underline;
+}
+
+.Grassetto {
+    font-weight: bold;
+    list-style-type: none;
+    font-family: "Magra", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.Lista {
+    list-style-type: none;
+    font-family: "Magra", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
